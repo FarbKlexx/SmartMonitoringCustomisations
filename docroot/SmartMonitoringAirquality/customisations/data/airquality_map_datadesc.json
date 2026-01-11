@@ -1,0 +1,77 @@
+{
+  "pm2_5": {
+    "txt_title": "PM2.5",
+    "txt_desc": "Particulate matter ≤ 2.5µm",
+    "txt_uknw": "unknown",
+    "col": "#7B7B7B",
+    "calcmode": "<",
+    "values": {
+        "5": {
+        "txt": "< 5 µg/m³ (WHO)",
+        "col": "#2AAD27"
+      },
+      "10": {
+        "txt": "5-10 µg/m³ (EU 2030)",
+        "col": "#CAC428"
+      },
+      "25": {
+        "txt": "10-25 µg/m³ (EU 2025)",
+        "col": "#CB8427"
+      },
+      "999": {
+        "txt": "> 25 µg/m³",
+        "col": "#CB2B3E"
+      }
+    }
+  },
+  "pm10_0": {
+    "txt_title": "PM10",
+    "txt_desc": "Particulate matter ≤ 10µm",
+    "txt_uknw": "unknown",
+    "col": "#7B7B7B",
+    "calcmode": "<",
+    "values": {
+      "15": {
+        "txt": "< 15 µg/m³ (WHO)",
+        "col": "#2AAD27"
+      },
+      "20": {
+        "txt": "15-20 µg/m³ (EU 2030)",
+        "col": "#CAC428"
+      },
+      "40": {
+        "txt": "20-40 µg/m³ (EU 2010)",
+        "col": "#CB8427"
+      },
+      "999": {
+        "txt": "> 40 µg/m³",
+        "col": "#CB2B3E"
+      }
+    }
+  },
+  "temp1": {
+    "txt_title": "Temperature",
+    "txt_desc": "as recorded",
+    "txt_uknw": "unknown",
+    "col": "#7B7B7B",
+    "calcmode": "<",
+    "values": {
+      "0": {
+        "txt": "< 0 °C",
+        "col": "#2A81CB"
+      },
+      "15": {
+        "txt": "0-15 °C",
+        "col": "#2AAD27"
+      },
+      "25": {
+        "txt": "15-25 °C",
+        "col": "#FFD326"
+      },
+      "35": {
+        "txt": "> 25 °C",
+        "col": "#CB2B3E"
+      }
+    }
+  }
+}
