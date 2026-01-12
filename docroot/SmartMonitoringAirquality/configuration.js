@@ -29,6 +29,7 @@ var SWAC_config = {
         display_value_3: 'temp1',
         display_value_3_icon: 'device_thermostat',
         display_value_4_icon: '123',
+        display_value_5: 'temp1',
         timestamp: 'ts',
         map_datadescription: '../../customisations/data/airquality_map_datadesc.json',
         lat: 'pos_lat',
